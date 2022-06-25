@@ -1,0 +1,1247 @@
+.container {
+    width: fit-content;
+}
+.IntroPage {
+    display: flex;
+    /* position: relative; */
+}
+.Holder{
+    display: flex;
+    position: relative;
+}
+.Holder1{
+    display: flex;
+    background-color: #FFF5EC;
+    flex-direction:column;
+}
+.Holder2{
+    position: relative;
+}
+.text {
+    font-family: 'Poppins';
+    font-size: 169px;
+    font-weight: bold;
+    opacity: 4%;
+    height: 182px;
+}
+.text1 {
+    font-family: 'Poppins';
+    font-size: 62px;
+    font-weight: bold;
+    color: #2E266F;
+    margin: 0px 0px 0px 9px;
+    line-height: 1;
+}
+.innerDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5EC;
+}
+.searchButton {
+    width: 84%;
+    background: #FFFFFF;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    color: #2E266F;
+    padding: 20px 0px 25px 42px;
+
+}
+.goButton {
+    position: absolute;
+    background-color: #FE043C;
+    border: none;
+    border-radius: 71px 0px 0px 0px;
+    right: 117px;
+    top: 5px;
+    color: #FFFFFF;
+    padding: 2px 50px 8px 59px;
+    cursor: pointer;
+}
+.goButtonText {
+    font-family: 'Poppins';
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
+}
+.inputHolder {
+    position: relative;
+    margin: 53px 0px 0px 0px;
+}
+.heading 
+{
+  display: flex;
+  margin: 18px 0px 0px 91px;
+}
+.headingOptions {
+ display: flex;
+ margin: 0px 0px 0px 85px;
+}
+.Option 
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E266F;
+    margin: 0px 49px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContent {
+    display: flex;
+    margin: 0px 0px 0px 77px;
+}
+.LogoSvgDiv {
+   margin: 0px 54px 0px 0px;   
+}
+.profileHolderDIv {
+    display:flex;
+    margin: 24px 133px 0px 133px;
+    
+}
+.profileDiv {
+    background: #FE043C;
+}
+.profileCircle {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 17px 0px 0px;
+    background-repeat: round;
+    background-image: url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80);
+}
+.NameText {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 14px 0px 0px;
+}
+.ArrowHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NameHolder {
+    display: flex;
+}
+.abc {
+    display: flex;
+    margin: 661px 0px 84px 175px;
+}
+.profileContent {
+}
+.DotSvgHolder {
+    margin: 0px 13px 0px 0px;
+}
+.DotSvgDiv {
+    margin: 33px 0px 0px 0px;
+}
+.FoodPicHolder {
+    position: absolute;
+    left: 43%;
+}
+.ArrowImageHolder {
+    margin: 0px 19px 0px 0px;
+    cursor: pointer;
+}
+.LocationTag {
+    position: absolute;
+    display: flex;
+    background-color: #FE043C;
+    border-radius: 0px 20px 20px 0px;
+    padding: 14px 85px 11px 18px;
+    top: 674px;
+}
+.LandMarkImageHolder {
+    margin: 0px 19px 0px 0px;
+
+}
+.LandMarkText {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PlaceInfo {
+}
+.PlaceInfoDiv {
+    display: flex;
+}
+.PlaceInfoDiv {
+    display: flex;
+}
+.PlaceInfoDivAfter{
+    display: none;
+    flex-direction: column;
+}
+.InfoHolder {
+    display: flex;
+    margin: 0px 0px 0px 92px;
+}
+.PlaceInfoSeperator {
+width: 22px;
+height: 102px;
+background-color: #FE043C;
+margin: 0px 37px 0px 0px;
+}
+.PlaceInfoText {
+    font-family: 'Poppins';
+    font-size: 41px;
+    font-weight: 600;
+    color: #2E266F;
+    width: 70%;
+    line-height: 1;
+    margin: 27px 0px 0px 0px;
+}
+.PlaceAdditionalInfo {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 182px 0px 0px;
+}
+.PlaceInfoPics{
+    display: flex;
+    margin: 147px 0px 0px 0px;
+}
+.PlaceInfoPicHolder {
+    display: flex;
+    z-index: 3;
+    margin: 0px 0px 171px 0px;
+}
+.PlaceInfoPic {
+position: relative;
+margin: 0px 51px 0px 0px;
+}
+.InnerInfo {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: #FE043C;
+    /* opacity: 63%; */
+    bottom: 5px;
+    border-radius: 11px;
+    background: rgba(254, 4, 60, 0.63);
+
+}
+.InnerInfoTitle {
+    font-family: 'Poppins';
+    font-size: 53px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.InnerInfoText {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 80%;
+}
+.InnerInfoTextPart {
+margin: 0px 0px 0px 41px;
+}
+.LandMarkNButtonHolder {
+    display: flex;
+}
+.LandMarkNButtonDiv{
+    display: flex;
+    margin: 22px 0px 0px 41px;
+    justify-content: space-between;
+    width: 90%;
+}
+.LandMarkImageHolderDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 13px 0px 0px;
+}
+.LandMarkImageHolderText {
+    font-family: 'Muli';
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BookNowButton {
+    display: flex;
+    border: none;
+    background: #FFFAF5;
+    border-radius: 0px 0px 7px 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 24px 19px 24px;
+    cursor: pointer;
+}
+.BookNowButtonText{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    color: #E3345F;
+    margin: 0px 14px 0px 0px;
+}
+.ArrowDiv {
+
+}
+.SeeMoreArrowHolder {
+cursor: pointer;
+}
+.SeeMoreArrowHolderDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 94px 37px;
+}
+.SeeMoreArrowText {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    color: #FE043C;
+    margin: 37px 0px 0px 42px;
+}
+.DotSvgHolderHelper1 {
+    position:absolute;
+    top: 10%;
+}
+.DotSvgHolderHelper2 {
+    position: absolute;
+    top: 46%;
+    right: 19%;
+}
+.AdvanceBookingInnerDiv {
+    display: inline-block;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 70%;
+    margin: 202px auto;
+    z-index: 9;
+}
+.AdvanceBookingHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px 0px 0px;;  
+}
+.AdvanceBookingHeaderSeperator {
+    height: 13px;
+    width: 103px;
+    background-color: #FE043C;
+    margin: 0px 0px 6px 0px;
+}
+.AdvanceBookingHeaderText {
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 600;
+    color: #2E266F;
+}
+.AdvanceBookingInput {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 43px 0px 0px 0px;
+
+}
+.AdvanceBookingSearchButton {
+    width: 55%;
+    background: #FFFFFF;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: 400;
+    color: #2E266F;
+    padding: 30px 0px 29px 42px;
+    box-shadow: 0px 0px 15px 5px rgb(254 4 60 / 7%);
+
+}
+.AdvanceBookingGoButton {
+    position: absolute;
+    background-color: #FE043C;
+    border: none;
+    right: 255px;
+    top: 18px;
+    color: #FFFFFF;
+    padding: 8px 50px 8px 59px;
+    cursor: pointer;
+}
+.AdvanceBookingGoButtonText {
+    font-family: 'Poppins';
+    font-size: 29px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+.BookingDetailDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 47px 0px 56px 0px;
+}
+.BookingDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 169px 0px 0px;
+}
+.BookingDetailHeadingDiv {
+    display: flex; 
+}
+.BookingDetailHeading {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    color: #2E266F;
+}
+.BookingDetailText {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #2E266F;
+}
+.InfoArrowHolder {
+    margin: 0px 0px 0px 5px;
+}
+.AdvanceBookingDiv {
+    background: #FFEDDE;
+    position: relative;
+    display: flex;
+}
+.BookingDetailInnerDiv {
+    display: flex;
+    width: 48%;
+}
+.AdvanceBookingDotSvg1 {
+    position: absolute;
+    top: 387px;
+    left: 228px;
+}
+.AdvanceBookingDotSvg2{
+    position: absolute;
+    right: 169px;
+    top: 140px;
+}
+.LettuceImageHolder {
+    position: absolute;
+    z-index: 9;
+    top: -23%;
+    left: -19%;
+}
+
+.LettuceImageHolderAfter {
+    position: absolute;
+    z-index: 9;
+    top: -23%;
+    left: -19%;
+    display: none;
+}
+.LettuceLeafHolder {
+    position: absolute;
+    z-index: 9;
+    top: 19%;
+    right: -23%;
+}
+.LettuceLeafHolderAfter {
+    position: absolute;
+    z-index: 9;
+    top: 19%;
+    display: none;
+}
+.ExploreDiv {
+    background: #FFF5EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ExploreInnerDiv {
+
+}
+.ExploreInnerInfoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 148px 0px 0px 0px;
+}
+.ExploreInnerInfoText {
+    font-family: 'Poppins';
+    font-size: 29px;
+    font-weight: 400;
+    color: #2E266F;
+    margin: 0px 0px 33px 0px;
+}
+.ExploreInnerInfoDescription{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #AEB2B4;
+    width: 46%;
+    text-align: center;
+}
+.ExploreInnerImageDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0px 0px 0px;
+}
+.ExploreInnerImageHolder {
+
+}
+.ExploreInnerImageInfo {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 43px 0px 46px 21px;
+}
+.ExploreInnerImageInfoHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 79px 14px 0px;
+}
+.ExploreInnerImageInfoTitle {
+    font-family: 'Bree Serif';
+    font-size: 18px;
+    font-weight: 400;
+    color: #0C3653;
+}
+.ExploreInnerImageInfoPrice {
+    font-family: 'Georgia';
+    font-size: 25px;
+    font-weight: 700;
+    color: #F98169;
+}
+.ExploreInnerImageInfoDescription {
+    font-family: 'Muli';
+    font-size: 14px;
+    font-weight: 600;
+    color: #AEB2B4;
+    width: 80%;
+}
+.ExploreInnerImage {
+    margin: 0px 42px 67px 0px;
+    box-shadow: 0px 0px 15px 5px rgba(174,178,180,0.28);
+    background: #FFFFFF;
+}
+.AdditionalInfoDiv {
+    background: #FFEDDE;
+}
+.AdditionalInnerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdditionalInnerDivAfter {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.AdditionalInnerFirstDiv {
+    display: flex;
+    margin: 0px 0px 0px 139px;
+}
+.AdditionalInnerSeperator {
+    width: 27px;
+    height: 149px;
+    background: #FE043C;
+    margin: 36px 0px 0px 0px;
+}
+.AdditionalInnerDownloadText {
+    font-family: 'Poppins';
+    font-size: 57px;
+    font-weight: 600;
+    color: #2E266F;
+    width: 78%;
+    margin: 0px 0px 14px 37px;
+}
+.AdditionalInnerDownloadDescription {
+    font-family: 'Segoe UI';
+    font-size: 23px;
+    font-weight: 400;
+    color: #707070;
+    width: 54%;
+    margin: 0px 0px 46px 37px;
+}
+.AdditionalInnerDownloadStore {
+    display: flex;  
+    margin: 0px 0px 0px 18px;
+}
+.AdditionalInnerDownloadPlayStore {
+
+}
+.AdditionalInnerDownloadAppStore {
+    margin: 14px 0px 0px 0px;
+}
+.AdditionalInnerTextPart {
+    margin: 34px 0px 0px 0px;
+}
+.AdditionalInnerSecondDiv {
+ position: relative;
+ margin: 0px 192px 0px 0px;   
+}
+.AdditionalInnerImageHolder {
+
+}
+.AdditionalInnerDotHolder {
+    position: absolute;
+    top: 95px;
+    right: 197px;
+}
+.AdditionalInnerImage {
+    z-index: 1;
+}
+.ContactDiv {
+    background: #FFF5EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.ContactInnerDiv {
+    margin: 0px 0px 0px 205px;;
+}
+.ContactInnerInfoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ContactInnerHeading {
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 400;
+    color: #273164;
+    text-align: center;
+    margin: 165px 0px 0px 0px;
+}
+.ContactInnerDescription {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #273164;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    margin: 41px 0px 0px 0px;
+}
+.ContactInnerInputHolder {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 77px 0px 0px 0px;
+}
+.EmailHolder {
+    border: none;
+    background: #FFFFFF;
+    width: 70%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    color: #273164;
+    padding: 21px 0px 21px 44px;
+    border-radius: 55px;
+    box-shadow: 0px 0px 15px 5px rgb(112 112 112 / 23%);
+}
+.EmailArrowHolder {
+    position: absolute;
+    right: 72px;
+    top: -15px;
+    cursor: pointer;
+}
+.AdditionalLinks {
+    display: flex;
+    margin: 76px 0px 0px 0px;
+}
+.LinkType {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #273164;
+    margin: 0px 24px 0px 0px;
+}
+.LeaveDiv {
+    position: absolute;
+    left: -62px;
+}
+.LeaveDivAfter {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.SocialMediaLinks {
+    display: flex;
+    margin: 88px 0px 272px 0px;
+    width: 92%;
+    justify-content: flex-end;
+}
+.SocialMediaType{
+    margin: 0px 53px 0px 0px;
+}
+.SocialMediaInnerLinks{
+    display: flex;
+}
+.SocialMediaText{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ServicesDiv{
+    background: #FFF5EC;
+    display: flex;
+    flex-direction: column;
+}
+.ServicesHeadingContainer {
+    display: flex;
+    margin: 252px 0px 0px 0px;
+}
+.ServicesHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px 0px 0px 92px
+}
+.ServicesSeperator{
+    width: 34px;
+    height: 160px;
+    background: #FE043C;
+}
+.ServicesHeadingText{
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 600;
+    color: #2E266F;
+    width: 70%;
+    margin: 0px 75px 0px 52px;
+    line-height: 1;
+}
+.ServicesDescription{
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    font-weight: 400;
+    color: #707070;
+    width: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DotBackgroundHolder{
+    margin: 108px 0px 0px 0px;
+    position: relative;
+}
+.ServicesInfoContainer{
+    display: flex;
+    position: absolute;
+    top: 9%;
+   
+}
+.ServicesInfoFirstDiv{
+   display: flex; 
+   flex-direction: column;
+   margin: 0px 0px 0px 107px;
+}
+.ServicesInfoSecondDiv{
+    display: flex; 
+    position: relative;
+    margin: 0px 37px 0px 0px;
+}
+.AdvanceTableDiv{
+    display: flex; 
+    position: relative;
+}
+.TableHolderDiv{
+
+}
+.AdvanceTableTextDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 81px;
+}
+.FreeFoodDivTextDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 172px 0px 0px;
+}
+.AdvanceTableHeading{
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 600;
+    color: #2E266F;
+    width: 80%;
+}
+.FreeFoodHeading{
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 600;
+    color: #2E266F;
+}
+.AdvanceTableDescription{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 400;
+    color: #707070;
+    width: 80%;
+}
+.FreeFoodDescription{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 400;
+    color: #707070;
+    width: 100%;
+}
+.DesignLineHolder{
+    position: absolute;
+    top: 50px;
+    right: 55px;
+}
+.DesignLineHolderAfter{
+    position: absolute;
+    top: 50px;
+    right: 55px;
+    display: none;
+}
+.ArrowHolderDiv{
+    position: absolute;
+    right: 48%;
+    top: 43%;
+    
+}
+.ArrowHolderDivAfter{
+    position: absolute;
+    right: 48%;
+    top: 43%;
+    display: none;
+}
+.FreeFoodHolderDiv{
+    position: absolute;
+    right: 42%;
+    transform: rotate(180deg);
+    top: 44%;
+
+}
+.FreeFoodHolderDivAfter{
+    position: absolute;
+    right: 42%;
+    transform: rotate(180deg);
+    top: 44%;
+    display: none;
+
+}
+.FreeFoodDiv{
+    display: flex;
+    position: relative;
+}
+.FreeFoodHelper{
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+}
+.DesignLineHelper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DesignLineHelperAfter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.DeliveryDiv{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 53%;
+}
+.DeliveryDivHeading{
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 600;
+    color: #2E266F;
+    width: 72%;
+    line-height: 1;
+}
+
+.DeliveryDivDescription{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+}
+.DesignDeliveryLineHelper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+.headerContentInnerDiv{
+
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 131px;
+        height: 154px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .searchButton{
+        padding: 10px 0px 10px 10px;
+        font-size: 13px;
+    }
+    .goButtonText {
+        font-size: 16px;
+        margin: 0;
+    }
+    .goButton {
+    right: 56px;
+    top: 2px;
+    padding: 5px 16px 7px 28px;
+    }
+    .Option{
+        font-size: 8px;
+    }
+    .PlaceInfoDiv {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .PlaceInfoDivAfter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .PlaceInfoText{
+        width: 95%;
+    }
+    .PlaceAdditionalInfo {
+        margin: 0;
+        width: 60%;
+    }
+    .InnerInfoTitle {
+        font-size: 40px;
+    }
+    .InnerInfoText {
+        font-size: 13px;
+    }
+    .BookNowButton{
+        padding: 11px 15px 11px 15px;
+    }
+    .LandMarkImageHolderText {
+        font-size: 14px;
+    }
+    .SeeMoreArrowHolderDiv{
+        margin: 0px 0px 94px 0px;
+    }
+    .SeeMoreArrowText {
+        display: none;
+    }
+    .AdvanceBookingSearchButton{
+        font-size: 16px;
+        padding: 22px 0px 22px 39px;
+    }
+    .AdvanceBookingGoButton {
+        right: 185px;
+        top: 10px;
+        padding: 4px 35px 4px 35px;
+    }
+    .BookingDetailInnerDiv{
+        width: 62%;
+    }
+    .AdditionalInnerDiv{
+        display: none;
+    }
+    .AdditionalInnerDivAfter{
+        display: flex;
+    } 
+    .AdditionalInnerDownloadText {
+        width: 96%;
+    }
+    .AdditionalInnerDownloadStore {
+        margin:0;
+       justify-content: center;
+       align-items: center;
+   }
+   .AdditionalInnerDownloadAppStore {
+    margin: 0;
+   }
+   .LeaveDivAfter {
+    display: flex;
+    left: -43px;
+    bottom: 67px;
+   }
+   .LeaveDiv {
+    display: none;
+   }
+   .PlaceInfoDivAfter {
+    display: flex;
+   }
+   .DotSvgHolderHelper2 {
+    top: 44%;
+    right: 4%;
+    }
+    .AdvanceBookingDotSvg2{
+        right: 116px;
+           top: 140px;
+    }
+    .AdvanceBookingDotSvg1{
+        top: 369px;
+        left: 173px;
+    }
+    .AdditionalInnerDotHolder{
+        top: 160px;
+         right: 285px;
+     }
+     .LettuceImageHolder {
+        display: none;
+     }
+     .LettuceImageHolderAfter {
+        display: flex;
+        top: -24%;
+    left: -35%;
+     }
+     .LettuceLeafHolder{
+        display: none;
+
+    }
+    .LettuceLeafHolderAfter {
+     display: flex;
+    }
+    .ServicesDescription {
+        width: 61%;
+    }
+    .AdvanceTableHeading{
+        font-size: 23px;
+        width: 85%;
+    }
+    .FreeFoodHeading{
+        font-size: 28px;
+    }
+    .AdvanceTableDescription{
+        font-size: 19px;
+        width: 84%;
+    }
+    .ServicesInfoFirstDiv{
+        margin: 0px 51px 0px 51px;
+    }
+    .ArrowHolderDiv{
+        display: none;
+     }
+     .ArrowHolderDivAfter{
+        display: flex;
+        right: 38%;
+     } 
+     .AdvanceTableTextDiv{
+        margin: 0px 0px 0px 59px
+        }
+    .DesignLineHolderAfter{
+     display: flex;
+     right: 0px;
+    }
+    .DesignLineHolder{
+        display: none;
+    }
+    .FreeFoodHeading{
+        font-size: 23px;
+    }
+    .DesignLineHelperAfter{
+        display: flex;
+    }
+    .DesignLineHelper{
+       display: none;
+    }
+    .FreeFoodDescription{
+        font-size: 19px;
+    }
+    .FreeFoodHolderDivAfter{
+        display: flex;
+    }
+    .FreeFoodHolderDiv{
+        display: none;
+    }
+    .FreeFoodHolderDivAfter{
+        right: 36%;
+    }
+    .DeliveryDivHeading{
+        font-size: 32px;
+    }
+    .DeliveryDivDescription{
+        font-size: 24px;
+    }
+    .DesignDeliveryLineHelper{
+        margin: 25px 0px 0px 0px;
+    }
+    .DeliveryDiv{
+        top: 58%;
+    }
+    .inputHolder {
+        position: relative;
+        margin: 22px 0px 0px 0px;
+    }
+    .headerContentInnerDiv{
+        margin: 0px 31px 0px 0px;
+    }
+ }
+ @media (min-device-width: 1024px) and (max-device-width: 1440px) { 
+
+    .LettuceImageHolder{
+        left: -28%;
+    }
+    .AdvanceBookingGoButton{
+        right: 205px;
+    }
+    .text1{
+        font-size: 39px;
+    }
+    .goButton{
+        padding: 2px 30px 8px 30px;
+         right: 76px;
+     }
+     .InnerInfoTitle{
+        font-size: 46px;
+     }
+     .BookNowButton{
+        padding: 12px 24px 12px 24px;
+     }
+     .LeaveDiv{
+        left: -10%;
+    }
+    .DotSvgHolderHelper1{
+        top: 10%;
+        }
+        .DotSvgHolderHelper2{
+            top: 41%;
+            right: 14%;
+        }
+    .AdvanceBookingDotSvg2{
+        right: 129px;
+    }
+    .AdditionalInnerDotHolder{
+        right: 45px;
+    }
+    .ServicesInfoFirstDiv{
+        margin: 0px 51px 0px 51px;
+    }
+    
+    .ServicesDescription {
+        width: 61%;
+    }
+    .AdvanceTableHeading{
+        font-size: 23px;
+        width: 85%;
+    }
+    .FreeFoodHeading{
+        font-size: 28px;
+    }
+    .AdvanceTableDescription{
+        font-size: 19px;
+        width: 84%;
+    }
+    .ServicesInfoFirstDiv{
+        margin: 0px 51px 0px 51px;
+    }
+    .ArrowHolderDiv{
+        display: none;
+     }
+     .ArrowHolderDivAfter{
+        display: flex;
+        right: 38%;
+     } 
+     .AdvanceTableTextDiv{
+        margin: 0px 0px 0px 59px
+        }
+    .DesignLineHolderAfter{
+     display: flex;
+     right: 18px;
+    }
+    .DesignLineHolder{
+        display: none;
+    }
+    .FreeFoodHeading{
+        font-size: 23px;
+    }
+    .DesignLineHelperAfter{
+        display: flex;
+    }
+    .DesignLineHelper{
+       display: none;
+    }
+    .FreeFoodDescription{
+        font-size: 19px;
+    }
+    .FreeFoodHolderDivAfter{
+        display: flex;
+    }
+    .FreeFoodHolderDiv{
+        display: none;
+    }
+    .FreeFoodHolderDivAfter{
+        right: 36%;
+    }
+    .DeliveryDivHeading{
+        font-size: 32px;
+    }
+    .DeliveryDivDescription{
+        font-size: 24px;
+    }
+    .DesignDeliveryLineHelper{
+        margin: 25px 0px 0px 0px;
+    }
+    .DeliveryDiv{
+        top: 58%;
+    }
+    .AdditionalInnerDownloadText{
+        font-size: 45px;
+        width: auto;
+    }
+    .AdditionalInnerDownloadDescription{
+        width: auto;
+    }
+    .inputHolder {
+        position: relative;
+        margin: 22px 0px 0px 0px;
+    }
+    .LeaveDivAfter {
+        display: flex;
+        left: -43px;
+        bottom: 67px;
+       }
+       .LeaveDiv {
+        display: none;
+    }
+}
+
